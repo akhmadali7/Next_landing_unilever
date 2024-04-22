@@ -8,11 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        // sans: "Poppins, sans-serif",
+        sans: "Mulish, sans-serif",
+        serif: "Merriweather, serif",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'primary':'#0f0e9a',
+      },
+      aspectRatio:{
+        '3/2':"3/2",
+        '2/3':"2/3",
+      },
+      borderRadius: {
+        '4px': "4px",
+      }
     },
   },
   plugins: [],
