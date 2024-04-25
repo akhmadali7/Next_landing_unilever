@@ -1,18 +1,18 @@
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Profile from "@/components/Profile";
-import Shares from "@/components/Shares";
-import Brands from "@/components/Brands";
-import Pandemic from "@/components/Pandemic";
-import Blog from "@/components/Blog";
-import Careers from "@/components/Careers";
+import Hero from "@/components/landingpage/Hero";
+import Navbar from "@/components/landingpage/Navbar";
+import Profile from "@/components/landingpage/Profile";
+import Shares from "@/components/landingpage/Shares";
+import Brands from "@/components/landingpage/Brands";
+import Pandemic from "@/components/landingpage/Pandemic";
+import Blog from "@/components/landingpage/Blog";
+import Careers from "@/components//landingpage/Careers";
 
 import Image from "next/image";
-import Footer from "@/components/Footer";
+import Footer from "@/components/landingpage/Footer";
 
 export default function Home() {
   return (
-    <main className="text-slate-800">
+    <main className="text-slate-800 ">
       <Navbar />
       <Hero />
       <Profile />

@@ -27,6 +27,9 @@ const config: Config = {
       },
       borderRadius: {
         '4px': "4px",
+      },
+      fontSize:{
+
       }
     },
   },
