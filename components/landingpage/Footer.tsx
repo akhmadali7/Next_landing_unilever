@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className='responsive-x-padding pt-32 pb-6 flex flex-col gap-y-16 '>
+    <section className='responsive-x-padding pt-32 pb-6 flex flex-col gap-y-16 '>
       <div className='flex flex-row items-end gap-x-5'>
         <Image src={UnileverLogo} alt='Logo Unilever' height={50} />
         <p className='text-sm font-bold text-primary'>This is Unilever`s global <br />company website</p>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <p className='font-semibold'>&copy; Unilever 2024. All Right Reserved </p>
-    </div>
+    </section>
   )
 }
 

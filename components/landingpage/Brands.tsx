@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Brands = () => {
   return (
-    <div className='responsive-x-padding py-10 md:py-32 flex flex-col md:flex-row items-center' id='brands'>
+    <section className='responsive-x-padding py-10 md:py-32 flex flex-col md:flex-row items-center' id='brands'>
 
       <div className='w-full md:w-1/2'>
         <h4 className='h4-responsive font-bold'>Our<br />Brands</h4>
@@ -23,7 +23,7 @@ const Brands = () => {
         ))}
 
       </div>
-    </div>
+    </section>
   )
 }
 

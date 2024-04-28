@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col responsive-x-padding gap-y-10 md:gap-y-20 py-10 md:py-28' id='home'>
+    <section className='flex flex-col responsive-x-padding gap-y-10 md:gap-y-20 py-10 md:py-28' id='home'>
       <h1 className='h1-responsive text-primary font-bold'>
         <span className='text-pretty'>Making <br /> sustainable living commonplace.</span>
       </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
           <Image src={HeroImage} alt="hero" className='rounded-4px object-cover w-auto h-[400px]' />
         </div>
       </div>
-    </div >
+    </section >
   )
 }
 

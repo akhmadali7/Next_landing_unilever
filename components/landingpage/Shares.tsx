@@ -6,7 +6,7 @@ import { sharesData } from '@/constant'
 
 const Shares = () => {
   return (
-    <div className='flex flex-col lg:flex-row responsive-x-padding  justify-between py-10 gap-y-10'>
+    <section className='flex flex-col lg:flex-row responsive-x-padding  justify-between py-10 gap-y-10'>
       <h4 className='w-full lg:w-5/12 h4-responsive font-bold'>Share price</h4>
 
       <div className='w-full lg:w-7/12 flex flex-wrap justify-around items-center gap-y-10 '>
@@ -34,11 +34,8 @@ const Shares = () => {
             </div>
           </div>
         ))}
-
-
-
       </div>
-    </div>
+    </section>
   )
 }
 

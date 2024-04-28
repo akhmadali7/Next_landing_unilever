@@ -7,11 +7,11 @@ export const sharesData = [
 ]
 
 export const navLinks = [
-  { name: "About", link: "#profile" },
-  { name: "Brands", link: "#brands" },
-  { name: "Sustainable Living", link: "#susliving" },
-  { name: "News", link: "#news" },
-  { name: "Careers", link: "#careers" },
+  { name: "About", link: "/#profile" },
+  { name: "Brands", link: "/#brands" },
+  { name: "Sustainable Living", link: "/#susliving" },
+  { name: "News", link: "/#news" },
+  { name: "Careers", link: "/#careers" },
 ]
 
 export const profiles = [

@@ -24,9 +24,6 @@ export const Post = [
     date: "March 2024",
     desc: "Seventh Generation CEO Joey Bergstein shares how transparency and trust help the brand connect with consumers.",
     image: "/images/blog/C.png",
-    //
-    //
-
     isHeadline: false
   },
   {

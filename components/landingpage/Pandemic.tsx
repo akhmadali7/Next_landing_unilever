@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Pandemic = () => {
   return (
-    <div className='bg-slate-50 py-10 lg:py-32' id='susliving'>
+    <section className='bg-slate-50 py-10 lg:py-32' id='susliving'>
 
       <div className='responsive-x-padding 2xl:px-72  '>
         <Image src={landscape} alt='landscape' width={1000} className='hidden lg:block object-cover h-[600px] w-full rounded-4px' />
@@ -21,7 +21,7 @@ const Pandemic = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 

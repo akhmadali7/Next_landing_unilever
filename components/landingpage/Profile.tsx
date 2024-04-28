@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Profile = () => {
   return (
 
-    <div className='py-16 responsive-x-padding ' id='profile'>
+    <section className='py-16 responsive-x-padding ' id='profile'>
       {/* first section */}
       <div className='flex flex-col-reverse md:flex-row justify-between gap-x-1 xl:gap-x-20 gap-y-10 items-center'>
         <div className='w-full md:w-2/6 grid grid-cols-2 grid-rows-2 gap-y-5 lg:gap-y-10'>
@@ -52,7 +52,7 @@ const Profile = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 

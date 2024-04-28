@@ -37,6 +37,10 @@
 .text-responsive {
 @apply text-[14px] md:text-base font-semibold
 }
+
+.isactive {
+  @apply bg-primary rounded-lg text-purple-700
+}
 /* :root {sans-
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
