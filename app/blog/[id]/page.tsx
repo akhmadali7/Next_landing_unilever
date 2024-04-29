@@ -1,18 +1,17 @@
-"use client"
-import JobDetails from '@/components/careers/JobDetails'
+import Blog from '@/components/blog/Blog'
 import Footer from '@/components/landingpage/Footer'
 import Navbar from '@/components/landingpage/Navbar'
+import Back_Button from '@/components/ui/Back_Button'
 import React from 'react'
 
-
 const Home = () => {
-
   return (
-    <div>
+    <div >
       <Navbar />
-      <JobDetails />
+      <div className='h-screen'>
+        <Blog />
+      </div>
       <Footer />
-
     </div>
   )
 }
