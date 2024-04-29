@@ -28,6 +28,7 @@ const Navbar = () => {
           <div className='block md:hidden'>
             <Image src='/icon/burger.svg' width={100} height={100} alt='Hamburger Menu' className='h-6 w-6' />
           </div>
+          <p></p>
         </div>
       </div>
     </nav >

@@ -1,18 +1,21 @@
 export const JobList = [
   {
+    "job_id":"MM_Marketing_Manager_787",
     "position": "Marketing Manager",
     "type": "Full-time",
     "location": "London, UK",
     "company":"Unilever UK Limited",
     "date_posted": "May 15, 2024",
     "benefit": ["Competitive salary", "Bonus potential", "Private healthcare", "Pension scheme", "Flexible working environment"],
-    "requirements": ["MBA preferred", "5+ years in FMCG marketing", "Proven track record of managing successful campaigns", "Strong analytical and project management skills", "Excellent leadership and communication abilities"],
+    "requirement": ["MBA preferred", "5+ years in FMCG marketing", "Proven track record of managing successful campaigns", "Strong analytical and project management skills", "Excellent leadership and communication abilities"],
 
     "description": "Lead our dynamic marketing team to drive brand growth and market share for our health and wellness category. Develop and implement innovative marketing strategies, manage budgets, and collaborate with cross-functional teams to achieve business objectives.",
     "salary": "£60K - £80K",
     "applied": "35"
 },
+
 {
+  "job_id":"SCA_Supply_Chain_Analyst_326",
   "position": "Supply Chain Analyst",
   "type": "Full-time",
   "location": "Rotterdam, Netherlands",
@@ -25,6 +28,7 @@ export const JobList = [
   "applied": "27"
 },
 {
+  "job_id":"CSM_Customer_Relations_Manager_908",
   "position": "Customer Relations Manager",
   "type": "Full-time",
   "location": "Jakarta, Indonesia",
@@ -47,6 +51,7 @@ export const JobList = [
   "applied": "20"
 },
 {
+  "job_id":"RDS_RD_Scientist_785",
   "position": "R&D Scientist",
   "type": "Internship",
   "location": "Shanghai, China",
@@ -59,6 +64,7 @@ export const JobList = [
   "applied": "12"
 },
 {
+  "job_id":"HRM_Human_Resource_Manager_836",
   "position": "Human Resources Manager",
   "type": "Full-time",
   "location": "New York, USA",
@@ -71,6 +77,7 @@ export const JobList = [
   "applied": "22"
 },
 {
+  "job_id":"DMS_Digital_Marketing_Specialist_847",
   "position": "Digital Marketing Specialist",
   "type": "Full-time",
   "location": "Chicago, USA",
@@ -83,6 +90,7 @@ export const JobList = [
   "applied": "48"
 },
 {
+  "job_id":"SC_Sustainability_Coordinator_440",
   "position": "Sustainability Coordinator",
   "type": "Contract",
   "location": "Berlin, Germany",
@@ -95,6 +103,7 @@ export const JobList = [
   "applied": "33"
 },
 {
+  "job_id":"ITST_IT_Support_Technician_687",
   "position": "IT Support Technician",
   "type": "Freelance",
   "location": "Singapore",
@@ -107,6 +116,7 @@ export const JobList = [
   "applied": "15"
 },
 {
+  "job_id":"BS_Brand_Strategies_997",
   "position": "Brand Strategist",
   "type": "Internship",
   "location": "Paris, France",
@@ -119,6 +129,7 @@ export const JobList = [
   "applied": "21"
 },
 {
+  "job_id":"CSM_Customer_Relations_Manager_908",
   "position": "Customer Relations Manager",
   "type": "Full-time",
   "location": "Sydney, Australia",
@@ -131,6 +142,7 @@ export const JobList = [
   "applied": "30"
 },
 {
+  "job_id":"CSM_Customer_Service_Manager_667",
   "position": "Customer Service Manager",
   "type": "Full-time",
   "location": "Kuala Lumpur, Malaysia",

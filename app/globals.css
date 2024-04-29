@@ -35,7 +35,7 @@
 }
 
 .text-responsive {
-@apply text-[14px] md:text-base font-semibold
+@apply text-[14px] md:text-base font-medium
 }
 
 .isactive {
