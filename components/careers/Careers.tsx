@@ -16,7 +16,7 @@ const Careers = () => {
         {JobList.map((job, index) => (
           <div className='flex flex-col justify-between p-6 bg-white rounded-md shadow-md shadow-indigo-50' key={index}>
 
-            <div>
+            <div className='pb-4'>
               <div className='flex flex-row items-center justify-between'>
                 <div className='flex flex-row items-center align-middle gap-x-4'>
                   <div className='flex items-center justify-center w-12 h-12 rounded-4px bg-sky-50'>
@@ -32,15 +32,13 @@ const Careers = () => {
 
               <div className='flex flex-row flex-wrap-reverse justify-between pt-4 gap-y-3'>
                 <div className='flex flex-row items-center text-sm font-medium divide-x-2 gap-x-4 text-slate-900'>
-                  {/* <p className='flex items-center gap-x-2'> <span><Image src={'/icon/careers/briefcase.svg'} width={15} height={15} alt='' className='opacity-70' /></span>{job.type}</p> */}
                   <p className='flex items-center gap-x-2'> <span><Image src={'/icon/careers/people-roof.svg'} width={15} height={15} alt='' className='opacity-70' /></span>{job.company}</p>
                   <p className='flex items-center pl-4 gap-x-2'><span><Image src={'/icon/careers/marker.svg'} width={15} height={15} alt='' className='opacity-70' /></span>{job.location}</p>
                 </div>
-                {/* <p className='text-sm text-slate-600'>{job.date_posted}</p> */}
               </div>
 
-              <div>
-                <p className='py-4 text-sm text-slate-600'>{job.description}</p>
+              <div className='py-4'>
+                <p className='overflow-y-scroll text-sm h-44 text-slate-600 '>{job.description}</p>
               </div>
             </div>
 

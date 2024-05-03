@@ -16,7 +16,7 @@ const Footer = () => {
     <section className='flex flex-col pt-32 pb-4 responsive-x-padding gap-y-16 '>
       <div className='flex flex-row items-end gap-x-5'>
         <Image src={UnileverLogo} alt='Logo Unilever' height={50} />
-        <p className='text-sm font-bold text-primary'>This is Unilever`s global <br />company website</p>
+        <p className='text-sm font-bold text-maincolor'>This is Unilever`s global <br />company website</p>
       </div>
 
       <div>
@@ -47,10 +47,10 @@ const Footer = () => {
             <h3 className='pb-2 font-bold md:pb-4'>Connect with us</h3>
             <p className='text-responsive text-balance'>We`re always looking to connect with those who share on interest in a sustainable future.</p>
             <div className='flex flex-row pt-6 gap-x-6 opacity-90'>
-              <Link href="https://www.facebook.com/unilever" target='_blank'><Image src={FB} alt='FB icon' className='w-6 text-primary' /></Link>
-              <Link href="https://www.x.com/unilever"><Image src={Twitter} alt='FB icon' className='w-6 text-primary' /></Link>
-              <Link href="https://www.instagram.com/unilever"><Image src={IG} alt='FB icon' className='w-6 text-primary' /></Link>
-              <Link href="https://www.linked.in/unilever"><Image src={linkedIn} alt='FB icon' className='w-6 text-primary' /></Link>
+              <Link href="https://www.facebook.com/unilever" target='_blank'><Image src={FB} alt='FB icon' className='w-6 text-maincolor' /></Link>
+              <Link href="https://www.x.com/unilever"><Image src={Twitter} alt='FB icon' className='w-6 text-maincolor' /></Link>
+              <Link href="https://www.instagram.com/unilever"><Image src={IG} alt='FB icon' className='w-6 text-maincolor' /></Link>
+              <Link href="https://www.linked.in/unilever"><Image src={linkedIn} alt='FB icon' className='w-6 text-maincolor' /></Link>
             </div>
           </div>
         </div>

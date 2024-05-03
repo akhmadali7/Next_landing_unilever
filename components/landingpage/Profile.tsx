@@ -25,7 +25,7 @@ const Profile = () => {
           ))}
         </div>
         <div className='w-full md:w-4/6'>
-          <p className='font-bold uppercase text-primary text-pretty'>Who We Are</p>
+          <p className='font-bold uppercase text-maincolor text-pretty'>Who We Are</p>
           <h3 className='font-extrabold h3-responsive'>We have been pioneers, innovators and makers of future for over than 120 years.</h3>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Profile = () => {
             <p>
               Our brands give us a unique opportunity to create positive change, to grow our business, and to achieve our purpose of making sustainable living commonplace.
             </p>
-            <Link href="" className='font-semibold text-primary md:font-bold'>About Us</Link>
+            <Link href="" className='font-semibold text-maincolor md:font-bold'>About Us</Link>
           </div>
           <Image src={ProfileImageSquare} alt="hero" className='rounded-4px object-cover w-full lg:w-[350px] h-[350px]' />
         </div>

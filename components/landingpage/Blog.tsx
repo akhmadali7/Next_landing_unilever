@@ -32,7 +32,7 @@ const Blog = () => {
               <div className='p-2 pb-10 md:pb-2 hover:bg-sky-50 rounded-4px'>
                 <Image src={blog.image} alt={blog.title} width={1000} height={1000} className='object-cover w-full h-full aspect-3/2 rounded-4px ' />
                 <div className='flex flex-row items-center justify-between pt-6'>
-                  <p className='text-sm font-semibold text-primary'>{blog.theme}</p>
+                  <p className='text-sm font-semibold text-maincolor'>{blog.theme}</p>
                   <p className='text-sm font-semibold text-slate-400'>{blog.date}</p>
                 </div>
                 <p className='py-1 blog-title'>{blog.title}</p>
@@ -51,7 +51,7 @@ const Blog = () => {
                 <Image src={blog.image} alt={blog.title} width={1000} height={1000} className=' aspect-square md:aspect-3/2 lg:aspect-square w-[100px] md:w-full lg:w-auto h-auto md:h-[150px] lg:h-[150px] object-cover rounded-4px' />
                 <div className='flex flex-col'>
                   <div className='flex flex-row items-center justify-between'>
-                    <p className='text-sm font-semibold text-primary'>{blog.theme}</p>
+                    <p className='text-sm font-semibold text-maincolor'>{blog.theme}</p>
                     <p className='text-sm font-semibold text-slate-400'>{blog.date}</p>
                   </div>
                   <p className='py-1 blog-title'>{blog.title}</p>

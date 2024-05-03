@@ -17,7 +17,7 @@ const Pandemic = () => {
         <div className='lg:mr-0 xl:mr-32'>
           <h4 className='font-bold h4-responsive'>Covid<br />Response</h4>
           <p className='pt-6 pb-6 font-semibold lg:pt-16 lg:text-balance'>As the world biggest soap-making company, we are throwing our weight behind global and national efforts to protect lives and livelihoods from Covid-19 pandemic.</p>
-          <Link href="" className='font-semibold text-primary lg:font-bold'>Learn more</Link>
+          <Link href="" className='font-semibold text-maincolor lg:font-bold'>Learn more</Link>
         </div>
       </div>
 

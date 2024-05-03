@@ -1,8 +1,5 @@
 # Unilever Global Website
 
-> [!NOTE] Title
-> ==Contents==
-
 ## Features
 
 - Responsive design for optimal viewing on various devices.

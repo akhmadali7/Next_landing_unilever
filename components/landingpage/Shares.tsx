@@ -13,13 +13,13 @@ const Shares = () => {
         {sharesData.map((data, index) => (
           <div key={index} className='flex flex-col justify-center w-1/2 sm:w-1/4'>
             <div className='items-center'>
-              <h4 className='pb-3 text-sm font-bold text-primary'>{data.stock}</h4>
+              <h4 className='pb-3 text-sm font-bold text-maincolor'>{data.stock}</h4>
               <p className='pb-1 text-2xl font-bold lg:text-3xl'>{data.price.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 3 })}</p>
               <div className='flex flex-row items-center gap-x-1'>
-                <p className='text-lg font-bold text-primary'>
+                <p className='text-lg font-bold text-maincolor'>
                   {data.change.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 3 })}
                 </p>
-                <div className='text-primary'> {data.stat === 'up' ? (
+                <div className='text-maincolor'> {data.stat === 'up' ? (
                   <Image src='/icon/arrow-top-right.svg' alt='stat' width={20} height={20} />
                 ) : data.stat === 'down' ? (
                   <Image src='/icon/arrow-bottom-right.svg' alt='stat' width={20} height={20} />
